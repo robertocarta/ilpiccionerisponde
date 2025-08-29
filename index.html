@@ -190,6 +190,12 @@
           <img src="https://i.pinimg.com/originals/ca/a0/fa/caa0faa24fa1efd8456b13272005f6c6.gif" alt="">
         </div>
 
+        <div class="menu-item" onclick="loadContent('davveroserio')">
+          <img src="https://i.pinimg.com/originals/ca/a0/fa/caa0faa24fa1efd8456b13272005f6c6.gif" alt="">
+          <span>Ma sei davvero serio?</span>
+          <img src="https://i.pinimg.com/originals/ca/a0/fa/caa0faa24fa1efd8456b13272005f6c6.gif" alt="">
+        </div>
+
 
         <div class="menu-item" onclick="loadContent('fotoegif')">
           <img src="https://i.pinimg.com/originals/ca/a0/fa/caa0faa24fa1efd8456b13272005f6c6.gif" alt="">
@@ -210,9 +216,10 @@
   <!-- Right column: content + footer -->
   <div id="right">
     <div id="content">
-      <h1 class="wordart" style="color:#ff1744;">Benvenuta nel mio sito personale</h1>
+      <h1 class="wordart" style="color:pink;">Benvenuta nel mio sito personale</h1>
       <img class="content-gif" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Under_construction-animated.gif" alt="">
       <p> Son sicuro che tu abbia molti dubbi al momento, e son sicuro che ad alcuni di questi posso rispondere, e son sicuro che non me lo chiederesti, quindi ho deciso di fare un po' di guesswork</p>
+      <img class="content-gif" src=https://uploads.dailydot.com/2023/11/charlie-day-meme.jpg?auto=compress&fit=fit&fm=jpg&h=600&w=1200" alt="">
     </div>
 
     <footer>
@@ -255,7 +262,7 @@
       gif: 'https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif',
       color: '#ff1744',
       html: `
-        <p>Il Nicaragua (AFI: /nikaˈraɡwa/[6]), ufficialmente Repubblica del Nicaragua (in spagnolo República de Nicaragua), è uno Stato dell'America centrale con una superficie di 130 373 chilometri quadrati. Confina con l'Honduras a nord e la Costa Rica a sud, ed è un cazo di inferno in terra con uno dei tassi di omicidi più alti del mondo .</p>
+        <p>Il Nicaragua (AFI: /nikaˈraɡwa/[6]), ufficialmente Repubblica del Nicaragua (in spagnolo República de Nicaragua), è uno Stato dell'America centrale con una superficie di 130 373 chilometri quadrati. Confina con l'Honduras a nord e la Costa Rica a sud, ed è un cazzo di inferno in terra con uno dei tassi di omicidi più alti del mondo .</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBEfhiQXD7Zp21ROcsao69OTypIyekqagaV4RRZ69uzZgwVFF-7FJrC3_OTkP87uYwXk&usqp=CAU" alt="nicapoor">
         <p>Mi è venuto in mente solo perché suona esotico e lontano quanto più possibile da questa cittadina del cazzo.</p>
         <p>Volevo qualcosa che esprimesse il fatto che la tua presenza mi fa venire una gran voglia di fare cose insieme, tipo aderall ma senza il fastidioso tremore alle palpebre.</p>
@@ -303,16 +310,21 @@
       gif: 'https://blob.gifcities.org/gifcities/NILJDITRXFUXCNG2G7KVQ73QGX2MTPEF.gif',
       color: '#2979ff',
       html: `
-        <p>Perché l'ultima volta che l'ho fatto ti ho involontariamente dato un problema morale. Questa volta non volevo strappartelo, ma avrei voluto. Poi non ero mica convinto, quando ti chiesto se eri in una relazione mi hai detto sni. Ho provato a interpretare la cosa da amateur e ho calcolato ci fossero due lettere appartenenti a si e una soltanto appartente a no. Ma poi dall'università mi hanno risposto che era una domanda binaria e che in matematica è il negativo a essere definito in funzione del positivo. Ovvero se una cosa non è positiva, allora è negativa. Per esempio, il freddo è definito come la mancanza di calore, etc. Quindi siccome la tua risposta non era positiva, è da intendersi come negativa. Vorrei spiegarti anche il parere del tirocinante del CERN, ma ho finito l'olio al CBD e mi sta vibrando una palpebra.</p>
+        <p>Perché l'ultima volta che l'ho fatto ti ho involontariamente dato un problema morale. Questa volta non volevo strappartelo, ma avrei voluto. Però non ero mica convinto, quando ti chiesto se eri in una relazione mi hai detto sni. Ho provato a interpretare la cosa da amateur e ho calcolato ci fossero due lettere appartenenti a si e una soltanto appartente a no. Ma poi dall'università mi hanno risposto che era una domanda binaria e che in matematica è il negativo a essere definito in funzione del positivo. Ovvero se una cosa non è positiva, allora è negativa. Per esempio, il freddo è definito come la mancanza di calore, etc. Quindi siccome la tua risposta non era positiva, è da intendersi come negativa. Vorrei spiegarti anche il parere del tirocinante del CERN, ma ho finito l'olio al CBD e mi sta vibrando una palpebra.</p>
         <img src="https://blob.gifcities.org/gifcities/47ZXNFZB5U2TPDYUEKMAS35Z3KU6K767.gif" alt="sparkle-line">
       `
     },
+    serio: `
+      <h2>😐 Ma sei serio?</h2>
+      <p><b>I am dead serious.</b></p>
+      <img src="https://www.animatedimages.org/data/media/124/animated-skull-image-0051.gif">
+    `,
 
-    serio: {
-      title: 'Ma sei serio?',
-      gif: 'https://blob.gifcities.org/gifcities/QWWSUU745J6IS7HTIWK5VJFOWQI547AH.gif',
+    davveroserio: {
+      title: 'Ma sei davvero serio?',
+      gif: '',
       color: '#d500f9',
-      html: `<p>I am dead serious.</p>`
+      html: `<img src="https://i.postimg.cc/gkbVd0VG/meserio.jpg">`
     },
 
     fotoegif: {
@@ -320,7 +332,7 @@
       gif: 'https://lh3.googleusercontent.com/pw/AP1GczNlx3d7nipUPkZw5bFoZp_6FvfQY3225euFzyTYyA-EtlVkjIwpqrhwn3w-ngCHy99ZV91ypuuGN_o0ol7sd26EKMIbUtzCS7Q13DIoQga3H08z2jyMOdkuvfr7tfXwO8h0MK7xX7OPw2yIN-VWSyOyLA=w480-h848-s-no-gm?authuser=0',
       color: '#ffea00',
       html: `
-        <p>Under construction</p>
+        <img src="https://blob.gifcities.org/gifcities/65GCSQWJJXLN72AXGSEQBUP3TQXJZ65T.gif" alt="underconstr">
 
       `
     }
